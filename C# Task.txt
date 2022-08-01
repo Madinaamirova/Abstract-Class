@@ -1,0 +1,25 @@
+Vehicle Class(abstrakt).
+- Color
+- Year
+- ShowInfo() - asbtrakt method
+
+Year olmadan Vehicle obyekti yaratmaq olmaz
+Car Class (Vehicle-da miras alır)
+- Brand
+- Model
+- MaxSpeed
+
+Brand və Model olmadan Car obyekti yaratmaq olmaz.
+ShowInfo() methodunu özünə uyğun override etsin.
+
+Bus class (Vehicle-dan miras alır	)
+- PassengerCount
+
+ShowInfo() methodunu özünə uyğun override etsin.
+
+PassengerCount olmadan Bus obyekti yaratmaq olmaz
+
+Program class-ında bir Vehicle tipindən bir array yaradılsın və içi Car və Bus obyektlərilə 
+doldurulsun
+
+Daha sonra foreach-ə salıb hər bir Vehicle item-ı üçün ShowInfo() methodu çağırılsın.
